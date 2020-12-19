@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00949A0258DE58C00BB176D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009499F258DE58C00BB176D /* AppDelegate.swift */; };
+		B00949A2258DE58C00BB176D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949A1258DE58C00BB176D /* SceneDelegate.swift */; };
+		B00949A4258DE58C00BB176D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949A3258DE58C00BB176D /* ViewController.swift */; };
+		B00949A7258DE58C00BB176D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00949A5258DE58C00BB176D /* Main.storyboard */; };
+		B00949A9258DE58F00BB176D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00949A8258DE58F00BB176D /* Assets.xcassets */; };
+		B00949AC258DE58F00BB176D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00949AA258DE58F00BB176D /* LaunchScreen.storyboard */; };
+		B00949B7258DE58F00BB176D /* MeepAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949B6258DE58F00BB176D /* MeepAppTests.swift */; };
+		B00949C2258DE58F00BB176D /* MeepAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949C1258DE58F00BB176D /* MeepAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B00949B3258DE58F00BB176D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0094994258DE58B00BB176D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B009499B258DE58C00BB176D;
+			remoteInfo = MeepApp;
+		};
+		B00949BE258DE58F00BB176D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0094994258DE58B00BB176D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B009499B258DE58C00BB176D;
+			remoteInfo = MeepApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B009499C258DE58C00BB176D /* MeepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B009499F258DE58C00BB176D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00949A1258DE58C00BB176D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B00949A3258DE58C00BB176D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B00949A6258DE58C00BB176D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00949A8258DE58F00BB176D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00949AB258DE58F00BB176D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B00949AD258DE58F00BB176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00949B2258DE58F00BB176D /* MeepAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeepAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00949B6258DE58F00BB176D /* MeepAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepAppTests.swift; sourceTree = "<group>"; };
+		B00949B8258DE58F00BB176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00949BD258DE58F00BB176D /* MeepAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeepAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00949C1258DE58F00BB176D /* MeepAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepAppUITests.swift; sourceTree = "<group>"; };
+		B00949C3258DE58F00BB176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0094999258DE58C00BB176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00949AF258DE58F00BB176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00949BA258DE58F00BB176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0094993258DE58B00BB176D = {
+			isa = PBXGroup;
+			children = (
+				B009499E258DE58C00BB176D /* MeepApp */,
+				B00949B5258DE58F00BB176D /* MeepAppTests */,
+				B00949C0258DE58F00BB176D /* MeepAppUITests */,
+				B009499D258DE58C00BB176D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B009499D258DE58C00BB176D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B009499C258DE58C00BB176D /* MeepApp.app */,
+				B00949B2258DE58F00BB176D /* MeepAppTests.xctest */,
+				B00949BD258DE58F00BB176D /* MeepAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B009499E258DE58C00BB176D /* MeepApp */ = {
+			isa = PBXGroup;
+			children = (
+				B009499F258DE58C00BB176D /* AppDelegate.swift */,
+				B00949A1258DE58C00BB176D /* SceneDelegate.swift */,
+				B00949A3258DE58C00BB176D /* ViewController.swift */,
+				B00949A5258DE58C00BB176D /* Main.storyboard */,
+				B00949A8258DE58F00BB176D /* Assets.xcassets */,
+				B00949AA258DE58F00BB176D /* LaunchScreen.storyboard */,
+				B00949AD258DE58F00BB176D /* Info.plist */,
+			);
+			path = MeepApp;
+			sourceTree = "<group>";
+		};
+		B00949B5258DE58F00BB176D /* MeepAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B00949B6258DE58F00BB176D /* MeepAppTests.swift */,
+				B00949B8258DE58F00BB176D /* Info.plist */,
+			);
+			path = MeepAppTests;
+			sourceTree = "<group>";
+		};
+		B00949C0258DE58F00BB176D /* MeepAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B00949C1258DE58F00BB176D /* MeepAppUITests.swift */,
+				B00949C3258DE58F00BB176D /* Info.plist */,
+			);
+			path = MeepAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B009499B258DE58C00BB176D /* MeepApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00949C6258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepApp" */;
+			buildPhases = (
+				B0094998258DE58C00BB176D /* Sources */,
+				B0094999258DE58C00BB176D /* Frameworks */,
+				B009499A258DE58C00BB176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeepApp;
+			productName = MeepApp;
+			productReference = B009499C258DE58C00BB176D /* MeepApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00949B1258DE58F00BB176D /* MeepAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00949C9258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepAppTests" */;
+			buildPhases = (
+				B00949AE258DE58F00BB176D /* Sources */,
+				B00949AF258DE58F00BB176D /* Frameworks */,
+				B00949B0258DE58F00BB176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00949B4258DE58F00BB176D /* PBXTargetDependency */,
+			);
+			name = MeepAppTests;
+			productName = MeepAppTests;
+			productReference = B00949B2258DE58F00BB176D /* MeepAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B00949BC258DE58F00BB176D /* MeepAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00949CC258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepAppUITests" */;
+			buildPhases = (
+				B00949B9258DE58F00BB176D /* Sources */,
+				B00949BA258DE58F00BB176D /* Frameworks */,
+				B00949BB258DE58F00BB176D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00949BF258DE58F00BB176D /* PBXTargetDependency */,
+			);
+			name = MeepAppUITests;
+			productName = MeepAppUITests;
+			productReference = B00949BD258DE58F00BB176D /* MeepAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0094994258DE58B00BB176D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B009499B258DE58C00BB176D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B00949B1258DE58F00BB176D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B009499B258DE58C00BB176D;
+					};
+					B00949BC258DE58F00BB176D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B009499B258DE58C00BB176D;
+					};
+				};
+			};
+			buildConfigurationList = B0094997258DE58B00BB176D /* Build configuration list for PBXProject "MeepApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0094993258DE58B00BB176D;
+			productRefGroup = B009499D258DE58C00BB176D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B009499B258DE58C00BB176D /* MeepApp */,
+				B00949B1258DE58F00BB176D /* MeepAppTests */,
+				B00949BC258DE58F00BB176D /* MeepAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B009499A258DE58C00BB176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00949AC258DE58F00BB176D /* LaunchScreen.storyboard in Resources */,
+				B00949A9258DE58F00BB176D /* Assets.xcassets in Resources */,
+				B00949A7258DE58C00BB176D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00949B0258DE58F00BB176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00949BB258DE58F00BB176D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0094998258DE58C00BB176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00949A4258DE58C00BB176D /* ViewController.swift in Sources */,
+				B00949A0258DE58C00BB176D /* AppDelegate.swift in Sources */,
+				B00949A2258DE58C00BB176D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00949AE258DE58F00BB176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00949B7258DE58F00BB176D /* MeepAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00949B9258DE58F00BB176D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00949C2258DE58F00BB176D /* MeepAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00949B4258DE58F00BB176D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B009499B258DE58C00BB176D /* MeepApp */;
+			targetProxy = B00949B3258DE58F00BB176D /* PBXContainerItemProxy */;
+		};
+		B00949BF258DE58F00BB176D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B009499B258DE58C00BB176D /* MeepApp */;
+			targetProxy = B00949BE258DE58F00BB176D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B00949A5258DE58C00BB176D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00949A6258DE58C00BB176D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00949AA258DE58F00BB176D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00949AB258DE58F00BB176D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B00949C4258DE58F00BB176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00949C5258DE58F00BB176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00949C7258DE58F00BB176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeepApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sergio.castillo.MeepApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00949C8258DE58F00BB176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeepApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sergio.castillo.MeepApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B00949CA258DE58F00BB176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeepAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sergio.castillo.MeepAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeepApp.app/MeepApp";
+			};
+			name = Debug;
+		};
+		B00949CB258DE58F00BB176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeepAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sergio.castillo.MeepAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeepApp.app/MeepApp";
+			};
+			name = Release;
+		};
+		B00949CD258DE58F00BB176D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeepAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sergio.castillo.MeepAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeepApp;
+			};
+			name = Debug;
+		};
+		B00949CE258DE58F00BB176D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MeepAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sergio.castillo.MeepAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeepApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0094997258DE58B00BB176D /* Build configuration list for PBXProject "MeepApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00949C4258DE58F00BB176D /* Debug */,
+				B00949C5258DE58F00BB176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00949C6258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00949C7258DE58F00BB176D /* Debug */,
+				B00949C8258DE58F00BB176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00949C9258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00949CA258DE58F00BB176D /* Debug */,
+				B00949CB258DE58F00BB176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00949CC258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00949CD258DE58F00BB176D /* Debug */,
+				B00949CE258DE58F00BB176D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0094994258DE58B00BB176D /* Project object */;
+}
