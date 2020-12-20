@@ -3,18 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1502DC8E850FE6DDC32C9BD2 /* Pods_MeepAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2D5328BE676C6FA39DED1C /* Pods_MeepAppTests.framework */; };
+		5DAB0B44E7D6BB5C8679A4E1 /* Pods_MeepApp_MeepAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334889A8379484C08D860225 /* Pods_MeepApp_MeepAppUITests.framework */; };
 		B00949A0258DE58C00BB176D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B009499F258DE58C00BB176D /* AppDelegate.swift */; };
-		B00949A2258DE58C00BB176D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949A1258DE58C00BB176D /* SceneDelegate.swift */; };
-		B00949A4258DE58C00BB176D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949A3258DE58C00BB176D /* ViewController.swift */; };
-		B00949A7258DE58C00BB176D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00949A5258DE58C00BB176D /* Main.storyboard */; };
 		B00949A9258DE58F00BB176D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00949A8258DE58F00BB176D /* Assets.xcassets */; };
 		B00949AC258DE58F00BB176D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00949AA258DE58F00BB176D /* LaunchScreen.storyboard */; };
 		B00949B7258DE58F00BB176D /* MeepAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949B6258DE58F00BB176D /* MeepAppTests.swift */; };
 		B00949C2258DE58F00BB176D /* MeepAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949C1258DE58F00BB176D /* MeepAppUITests.swift */; };
+		B00949E1258DE5D500BB176D /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00949E0258DE5D500BB176D /* Application.swift */; };
+		B0094A05258DEC9F00BB176D /* ResourceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A04258DEC9F00BB176D /* ResourceDetailViewController.swift */; };
+		B0094A13258DECBE00BB176D /* MapNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A12258DECBE00BB176D /* MapNavigator.swift */; };
+		B0094A18258DECC000BB176D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A17258DECC000BB176D /* MapViewController.swift */; };
+		B0094A1D258DECC400BB176D /* ResourceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A1C258DECC400BB176D /* ResourceViewModel.swift */; };
+		B0094A30258DED0800BB176D /* CommonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A2F258DED0800BB176D /* CommonError.swift */; };
+		B0094A35258DED0B00BB176D /* MeepError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A34258DED0B00BB176D /* MeepError.swift */; };
+		B0094A3E258DF16000BB176D /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A3D258DF16000BB176D /* Resource.swift */; };
+		B0094A49258DF18300BB176D /* UseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A46258DF18300BB176D /* UseCaseProvider.swift */; };
+		B0094A4A258DF18300BB176D /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A47258DF18300BB176D /* UseCase.swift */; };
+		B0094A4B258DF18300BB176D /* UseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A48258DF18300BB176D /* UseCaseType.swift */; };
+		B0094A5A258DF1AB00BB176D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A56258DF1AB00BB176D /* ActivityIndicator.swift */; };
+		B0094A5B258DF1AB00BB176D /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A57258DF1AB00BB176D /* Reusable.swift */; };
+		B0094A5C258DF1AB00BB176D /* NavigatorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A58258DF1AB00BB176D /* NavigatorProvider.swift */; };
+		B0094A5D258DF1AB00BB176D /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A59258DF1AB00BB176D /* ErrorTracker.swift */; };
+		B0094A65258DF1BD00BB176D /* Observable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A62258DF1BC00BB176D /* Observable+Extension.swift */; };
+		B0094A66258DF1BD00BB176D /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A63258DF1BD00BB176D /* String+Extension.swift */; };
+		B0094A67258DF1BD00BB176D /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A64258DF1BD00BB176D /* ViewController+Extension.swift */; };
+		B0094A6F258DF1E000BB176D /* ReusableRxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A6C258DF1E000BB176D /* ReusableRxTableViewController.swift */; };
+		B0094A70258DF1E000BB176D /* ReusableRxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A6D258DF1E000BB176D /* ReusableRxViewModel.swift */; };
+		B0094A71258DF1E000BB176D /* RxViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A6E258DF1E000BB176D /* RxViewModelType.swift */; };
+		B0094A7B258DF21300BB176D /* BaseNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A76258DF21300BB176D /* BaseNavigator.swift */; };
+		B0094A7C258DF21300BB176D /* BasePaginationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A77258DF21300BB176D /* BasePaginationViewController.swift */; };
+		B0094A7E258DF21300BB176D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A79258DF21300BB176D /* BaseViewModel.swift */; };
+		B0094A7F258DF21300BB176D /* BasePaginationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A7A258DF21300BB176D /* BasePaginationTableViewCell.swift */; };
+		B0094A91258DF25800BB176D /* UseCaseNetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A8F258DF25800BB176D /* UseCaseNetworkType.swift */; };
+		B0094A92258DF25800BB176D /* NetworkImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A90258DF25800BB176D /* NetworkImp.swift */; };
+		B0094A98258DF26200BB176D /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A96258DF26200BB176D /* NetworkProvider.swift */; };
+		B0094A99258DF26200BB176D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A97258DF26200BB176D /* Network.swift */; };
+		B0094A9F258DF26900BB176D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A9D258DF26900BB176D /* Repository.swift */; };
+		B0094AA0258DF26900BB176D /* RepositoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094A9E258DF26900BB176D /* RepositoryProvider.swift */; };
+		B0094AA6258DF27200BB176D /* UseCaseImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094AA4258DF27200BB176D /* UseCaseImp.swift */; };
+		B0094AA7258DF27200BB176D /* NetworkUseCaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094AA5258DF27200BB176D /* NetworkUseCaseProvider.swift */; };
+		B0094AC7258DFB8500BB176D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0094AC6258DFB8500BB176D /* MapViewModel.swift */; };
+		B02B0465258E78D9003B834A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0094A29258DECE100BB176D /* Main.storyboard */; };
+		B0A7EEEE258E8C9200842D92 /* CLLocationCoordinate2D+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7EEED258E8C9200842D92 /* CLLocationCoordinate2D+Extension.swift */; };
+		B0A7EF30258F4B9400842D92 /* ResourcesUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7EF2F258F4B9400842D92 /* ResourcesUseCaseMock.swift */; };
+		B0A7EF35258F4BE900842D92 /* MapNavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7EF34258F4BE900842D92 /* MapNavigatorMock.swift */; };
+		FC5453D6B9C624B228B2CECB /* Pods_MeepApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCC16BB324B61CD712D5F1A /* Pods_MeepApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +73,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11BCD9A5AD18D4124F74F300 /* Pods-MeepApp-MeepAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepApp-MeepAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MeepApp-MeepAppUITests/Pods-MeepApp-MeepAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2565783266EFAC6DF3DCFFA0 /* Pods-MeepApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepApp.release.xcconfig"; path = "Target Support Files/Pods-MeepApp/Pods-MeepApp.release.xcconfig"; sourceTree = "<group>"; };
+		334889A8379484C08D860225 /* Pods_MeepApp_MeepAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeepApp_MeepAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2D5328BE676C6FA39DED1C /* Pods_MeepAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeepAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FA92ED9AF921059DDFA7E6 /* Pods-MeepApp-MeepAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepApp-MeepAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeepApp-MeepAppUITests/Pods-MeepApp-MeepAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C7CCFE39B454028E6CFACF1 /* Pods-MeepApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepApp.debug.xcconfig"; path = "Target Support Files/Pods-MeepApp/Pods-MeepApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9567DCF8EA1EEAC70F4A421C /* Pods-MeepAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepAppTests.release.xcconfig"; path = "Target Support Files/Pods-MeepAppTests/Pods-MeepAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B009499C258DE58C00BB176D /* MeepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B009499F258DE58C00BB176D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B00949A1258DE58C00BB176D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B00949A3258DE58C00BB176D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B00949A6258DE58C00BB176D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B00949A8258DE58F00BB176D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00949AB258DE58F00BB176D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00949AD258DE58F00BB176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +91,46 @@
 		B00949BD258DE58F00BB176D /* MeepAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeepAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00949C1258DE58F00BB176D /* MeepAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepAppUITests.swift; sourceTree = "<group>"; };
 		B00949C3258DE58F00BB176D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00949E0258DE5D500BB176D /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		B0094A04258DEC9F00BB176D /* ResourceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceDetailViewController.swift; sourceTree = "<group>"; };
+		B0094A12258DECBE00BB176D /* MapNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapNavigator.swift; sourceTree = "<group>"; };
+		B0094A17258DECC000BB176D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B0094A1C258DECC400BB176D /* ResourceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewModel.swift; sourceTree = "<group>"; };
+		B0094A29258DECE100BB176D /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B0094A2F258DED0800BB176D /* CommonError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonError.swift; sourceTree = "<group>"; };
+		B0094A34258DED0B00BB176D /* MeepError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeepError.swift; sourceTree = "<group>"; };
+		B0094A3D258DF16000BB176D /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		B0094A46258DF18300BB176D /* UseCaseProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseProvider.swift; sourceTree = "<group>"; };
+		B0094A47258DF18300BB176D /* UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		B0094A48258DF18300BB176D /* UseCaseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseType.swift; sourceTree = "<group>"; };
+		B0094A56258DF1AB00BB176D /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		B0094A57258DF1AB00BB176D /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		B0094A58258DF1AB00BB176D /* NavigatorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigatorProvider.swift; sourceTree = "<group>"; };
+		B0094A59258DF1AB00BB176D /* ErrorTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		B0094A62258DF1BC00BB176D /* Observable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Extension.swift"; sourceTree = "<group>"; };
+		B0094A63258DF1BD00BB176D /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B0094A64258DF1BD00BB176D /* ViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		B0094A6C258DF1E000BB176D /* ReusableRxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableRxTableViewController.swift; sourceTree = "<group>"; };
+		B0094A6D258DF1E000BB176D /* ReusableRxViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableRxViewModel.swift; sourceTree = "<group>"; };
+		B0094A6E258DF1E000BB176D /* RxViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxViewModelType.swift; sourceTree = "<group>"; };
+		B0094A76258DF21300BB176D /* BaseNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigator.swift; sourceTree = "<group>"; };
+		B0094A77258DF21300BB176D /* BasePaginationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePaginationViewController.swift; sourceTree = "<group>"; };
+		B0094A79258DF21300BB176D /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		B0094A7A258DF21300BB176D /* BasePaginationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePaginationTableViewCell.swift; sourceTree = "<group>"; };
+		B0094A8F258DF25800BB176D /* UseCaseNetworkType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseNetworkType.swift; sourceTree = "<group>"; };
+		B0094A90258DF25800BB176D /* NetworkImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkImp.swift; sourceTree = "<group>"; };
+		B0094A96258DF26200BB176D /* NetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		B0094A97258DF26200BB176D /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B0094A9D258DF26900BB176D /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B0094A9E258DF26900BB176D /* RepositoryProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryProvider.swift; sourceTree = "<group>"; };
+		B0094AA4258DF27200BB176D /* UseCaseImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCaseImp.swift; sourceTree = "<group>"; };
+		B0094AA5258DF27200BB176D /* NetworkUseCaseProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUseCaseProvider.swift; sourceTree = "<group>"; };
+		B0094AC6258DFB8500BB176D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		B0A7EEED258E8C9200842D92 /* CLLocationCoordinate2D+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extension.swift"; sourceTree = "<group>"; };
+		B0A7EF2F258F4B9400842D92 /* ResourcesUseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesUseCaseMock.swift; sourceTree = "<group>"; };
+		B0A7EF34258F4BE900842D92 /* MapNavigatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNavigatorMock.swift; sourceTree = "<group>"; };
+		D13D19BA6549A2F032F7DD70 /* Pods-MeepAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeepAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MeepAppTests/Pods-MeepAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBCC16BB324B61CD712D5F1A /* Pods_MeepApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeepApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5453D6B9C624B228B2CECB /* Pods_MeepApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1502DC8E850FE6DDC32C9BD2 /* Pods_MeepAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +154,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DAB0B44E7D6BB5C8679A4E1 /* Pods_MeepApp_MeepAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21A44AC3ECE0A82A6AADD8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBCC16BB324B61CD712D5F1A /* Pods_MeepApp.framework */,
+				334889A8379484C08D860225 /* Pods_MeepApp_MeepAppUITests.framework */,
+				4B2D5328BE676C6FA39DED1C /* Pods_MeepAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AF29D22A93DDC1EFA0A6B2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C7CCFE39B454028E6CFACF1 /* Pods-MeepApp.debug.xcconfig */,
+				2565783266EFAC6DF3DCFFA0 /* Pods-MeepApp.release.xcconfig */,
+				57FA92ED9AF921059DDFA7E6 /* Pods-MeepApp-MeepAppUITests.debug.xcconfig */,
+				11BCD9A5AD18D4124F74F300 /* Pods-MeepApp-MeepAppUITests.release.xcconfig */,
+				D13D19BA6549A2F032F7DD70 /* Pods-MeepAppTests.debug.xcconfig */,
+				9567DCF8EA1EEAC70F4A421C /* Pods-MeepAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B0094993258DE58B00BB176D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +191,8 @@
 				B00949B5258DE58F00BB176D /* MeepAppTests */,
 				B00949C0258DE58F00BB176D /* MeepAppUITests */,
 				B009499D258DE58C00BB176D /* Products */,
+				8AF29D22A93DDC1EFA0A6B2C /* Pods */,
+				21A44AC3ECE0A82A6AADD8CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +209,12 @@
 		B009499E258DE58C00BB176D /* MeepApp */ = {
 			isa = PBXGroup;
 			children = (
+				B00949DF258DE5CB00BB176D /* Application */,
+				B0094A55258DF19D00BB176D /* Utility */,
+				B00949F6258DEC0F00BB176D /* Scenes */,
+				B0094A2D258DECF600BB176D /* Domain */,
+				B0094A89258DF22300BB176D /* Network */,
 				B009499F258DE58C00BB176D /* AppDelegate.swift */,
-				B00949A1258DE58C00BB176D /* SceneDelegate.swift */,
-				B00949A3258DE58C00BB176D /* ViewController.swift */,
-				B00949A5258DE58C00BB176D /* Main.storyboard */,
 				B00949A8258DE58F00BB176D /* Assets.xcassets */,
 				B00949AA258DE58F00BB176D /* LaunchScreen.storyboard */,
 				B00949AD258DE58F00BB176D /* Info.plist */,
@@ -115,6 +227,8 @@
 			children = (
 				B00949B6258DE58F00BB176D /* MeepAppTests.swift */,
 				B00949B8258DE58F00BB176D /* Info.plist */,
+				B0A7EF2F258F4B9400842D92 /* ResourcesUseCaseMock.swift */,
+				B0A7EF34258F4BE900842D92 /* MapNavigatorMock.swift */,
 			);
 			path = MeepAppTests;
 			sourceTree = "<group>";
@@ -128,6 +242,181 @@
 			path = MeepAppUITests;
 			sourceTree = "<group>";
 		};
+		B00949DF258DE5CB00BB176D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B00949E0258DE5D500BB176D /* Application.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B00949F6258DEC0F00BB176D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A29258DECE100BB176D /* Main.storyboard */,
+				B0094A11258DECB500BB176D /* Map */,
+				B0094A03258DEC9500BB176D /* ResourceDetail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B0094A03258DEC9500BB176D /* ResourceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A1C258DECC400BB176D /* ResourceViewModel.swift */,
+				B0094A04258DEC9F00BB176D /* ResourceDetailViewController.swift */,
+			);
+			path = ResourceDetail;
+			sourceTree = "<group>";
+		};
+		B0094A11258DECB500BB176D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A12258DECBE00BB176D /* MapNavigator.swift */,
+				B0094A17258DECC000BB176D /* MapViewController.swift */,
+				B0094AC6258DFB8500BB176D /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B0094A2D258DECF600BB176D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A45258DF17800BB176D /* UseCases */,
+				B0094A3C258DEEBA00BB176D /* Models */,
+				B0094A2E258DED0000BB176D /* Errors */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B0094A2E258DED0000BB176D /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A34258DED0B00BB176D /* MeepError.swift */,
+				B0094A2F258DED0800BB176D /* CommonError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		B0094A3C258DEEBA00BB176D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A3D258DF16000BB176D /* Resource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0094A45258DF17800BB176D /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A47258DF18300BB176D /* UseCase.swift */,
+				B0094A46258DF18300BB176D /* UseCaseProvider.swift */,
+				B0094A48258DF18300BB176D /* UseCaseType.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		B0094A55258DF19D00BB176D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A75258DF1F700BB176D /* BaseClasses */,
+				B0094A6B258DF1C200BB176D /* ReusableRxTable */,
+				B0094A61258DF1B000BB176D /* Extensions */,
+				B0094A56258DF1AB00BB176D /* ActivityIndicator.swift */,
+				B0094A59258DF1AB00BB176D /* ErrorTracker.swift */,
+				B0094A58258DF1AB00BB176D /* NavigatorProvider.swift */,
+				B0094A57258DF1AB00BB176D /* Reusable.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B0094A61258DF1B000BB176D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A62258DF1BC00BB176D /* Observable+Extension.swift */,
+				B0094A63258DF1BD00BB176D /* String+Extension.swift */,
+				B0094A64258DF1BD00BB176D /* ViewController+Extension.swift */,
+				B0A7EEED258E8C9200842D92 /* CLLocationCoordinate2D+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B0094A6B258DF1C200BB176D /* ReusableRxTable */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A6C258DF1E000BB176D /* ReusableRxTableViewController.swift */,
+				B0094A6D258DF1E000BB176D /* ReusableRxViewModel.swift */,
+				B0094A6E258DF1E000BB176D /* RxViewModelType.swift */,
+			);
+			path = ReusableRxTable;
+			sourceTree = "<group>";
+		};
+		B0094A75258DF1F700BB176D /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A76258DF21300BB176D /* BaseNavigator.swift */,
+				B0094A7A258DF21300BB176D /* BasePaginationTableViewCell.swift */,
+				B0094A77258DF21300BB176D /* BasePaginationViewController.swift */,
+				B0094A79258DF21300BB176D /* BaseViewModel.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		B0094A89258DF22300BB176D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A8E258DF24800BB176D /* UseCases */,
+				B0094A8D258DF24300BB176D /* Repository */,
+				B0094A8C258DF23A00BB176D /* Network */,
+				B0094A8B258DF23400BB176D /* Models */,
+				B0094A8A258DF22F00BB176D /* API */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B0094A8A258DF22F00BB176D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A90258DF25800BB176D /* NetworkImp.swift */,
+				B0094A8F258DF25800BB176D /* UseCaseNetworkType.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B0094A8B258DF23400BB176D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0094A8C258DF23A00BB176D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A97258DF26200BB176D /* Network.swift */,
+				B0094A96258DF26200BB176D /* NetworkProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B0094A8D258DF24300BB176D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B0094A9D258DF26900BB176D /* Repository.swift */,
+				B0094A9E258DF26900BB176D /* RepositoryProvider.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B0094A8E258DF24800BB176D /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B0094AA5258DF27200BB176D /* NetworkUseCaseProvider.swift */,
+				B0094AA4258DF27200BB176D /* UseCaseImp.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +424,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B00949C6258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepApp" */;
 			buildPhases = (
+				EEF7EF9F32CBB5DD240C92F2 /* [CP] Check Pods Manifest.lock */,
 				B0094998258DE58C00BB176D /* Sources */,
 				B0094999258DE58C00BB176D /* Frameworks */,
 				B009499A258DE58C00BB176D /* Resources */,
+				50B3B292EE6AB5A7E9973951 /* [CP] Embed Pods Frameworks */,
+				A27AF579A9278ED9E44718A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +444,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B00949C9258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepAppTests" */;
 			buildPhases = (
+				0876AEBB67E4BE78DCFF8381 /* [CP] Check Pods Manifest.lock */,
 				B00949AE258DE58F00BB176D /* Sources */,
 				B00949AF258DE58F00BB176D /* Frameworks */,
 				B00949B0258DE58F00BB176D /* Resources */,
+				2461A1AD2035BE2A3E3FB954 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +464,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B00949CC258DE58F00BB176D /* Build configuration list for PBXNativeTarget "MeepAppUITests" */;
 			buildPhases = (
+				F137D832DB0ADFB0FEAF7E4A /* [CP] Check Pods Manifest.lock */,
 				B00949B9258DE58F00BB176D /* Sources */,
 				B00949BA258DE58F00BB176D /* Frameworks */,
 				B00949BB258DE58F00BB176D /* Resources */,
+				45354BE1AF594E8C3E211D24 /* [CP] Embed Pods Frameworks */,
+				C042B4B0F1C5E215C1391CA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +528,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02B0465258E78D9003B834A /* Main.storyboard in Resources */,
 				B00949AC258DE58F00BB176D /* LaunchScreen.storyboard in Resources */,
 				B00949A9258DE58F00BB176D /* Assets.xcassets in Resources */,
-				B00949A7258DE58C00BB176D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +550,201 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0876AEBB67E4BE78DCFF8381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeepAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2461A1AD2035BE2A3E3FB954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepAppTests/Pods-MeepAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepAppTests/Pods-MeepAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepAppTests/Pods-MeepAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45354BE1AF594E8C3E211D24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepApp-MeepAppUITests/Pods-MeepApp-MeepAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepApp-MeepAppUITests/Pods-MeepApp-MeepAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepApp-MeepAppUITests/Pods-MeepApp-MeepAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50B3B292EE6AB5A7E9973951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepApp/Pods-MeepApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepApp/Pods-MeepApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepApp/Pods-MeepApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27AF579A9278ED9E44718A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepApp/Pods-MeepApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepApp/Pods-MeepApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepApp/Pods-MeepApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C042B4B0F1C5E215C1391CA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepApp-MeepAppUITests/Pods-MeepApp-MeepAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeepApp-MeepAppUITests/Pods-MeepApp-MeepAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeepApp-MeepAppUITests/Pods-MeepApp-MeepAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF7EF9F32CBB5DD240C92F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeepApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F137D832DB0ADFB0FEAF7E4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeepApp-MeepAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0094998258DE58C00BB176D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00949A4258DE58C00BB176D /* ViewController.swift in Sources */,
+				B0094A3E258DF16000BB176D /* Resource.swift in Sources */,
+				B0094A5A258DF1AB00BB176D /* ActivityIndicator.swift in Sources */,
+				B00949E1258DE5D500BB176D /* Application.swift in Sources */,
+				B0094A30258DED0800BB176D /* CommonError.swift in Sources */,
+				B0094A7B258DF21300BB176D /* BaseNavigator.swift in Sources */,
+				B0094A99258DF26200BB176D /* Network.swift in Sources */,
+				B0094A98258DF26200BB176D /* NetworkProvider.swift in Sources */,
+				B0094A7C258DF21300BB176D /* BasePaginationViewController.swift in Sources */,
+				B0094A13258DECBE00BB176D /* MapNavigator.swift in Sources */,
+				B0094A49258DF18300BB176D /* UseCaseProvider.swift in Sources */,
+				B0094A4B258DF18300BB176D /* UseCaseType.swift in Sources */,
+				B0094AC7258DFB8500BB176D /* MapViewModel.swift in Sources */,
+				B0094AA0258DF26900BB176D /* RepositoryProvider.swift in Sources */,
+				B0094A05258DEC9F00BB176D /* ResourceDetailViewController.swift in Sources */,
+				B0094A71258DF1E000BB176D /* RxViewModelType.swift in Sources */,
+				B0094A6F258DF1E000BB176D /* ReusableRxTableViewController.swift in Sources */,
+				B0094A66258DF1BD00BB176D /* String+Extension.swift in Sources */,
+				B0094A4A258DF18300BB176D /* UseCase.swift in Sources */,
 				B00949A0258DE58C00BB176D /* AppDelegate.swift in Sources */,
-				B00949A2258DE58C00BB176D /* SceneDelegate.swift in Sources */,
+				B0094AA6258DF27200BB176D /* UseCaseImp.swift in Sources */,
+				B0094A5C258DF1AB00BB176D /* NavigatorProvider.swift in Sources */,
+				B0094A7E258DF21300BB176D /* BaseViewModel.swift in Sources */,
+				B0094A1D258DECC400BB176D /* ResourceViewModel.swift in Sources */,
+				B0094A92258DF25800BB176D /* NetworkImp.swift in Sources */,
+				B0094A70258DF1E000BB176D /* ReusableRxViewModel.swift in Sources */,
+				B0094A91258DF25800BB176D /* UseCaseNetworkType.swift in Sources */,
+				B0094A5D258DF1AB00BB176D /* ErrorTracker.swift in Sources */,
+				B0094A5B258DF1AB00BB176D /* Reusable.swift in Sources */,
+				B0094A35258DED0B00BB176D /* MeepError.swift in Sources */,
+				B0094A67258DF1BD00BB176D /* ViewController+Extension.swift in Sources */,
+				B0094A9F258DF26900BB176D /* Repository.swift in Sources */,
+				B0094A7F258DF21300BB176D /* BasePaginationTableViewCell.swift in Sources */,
+				B0094A18258DECC000BB176D /* MapViewController.swift in Sources */,
+				B0094A65258DF1BD00BB176D /* Observable+Extension.swift in Sources */,
+				B0094AA7258DF27200BB176D /* NetworkUseCaseProvider.swift in Sources */,
+				B0A7EEEE258E8C9200842D92 /* CLLocationCoordinate2D+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +753,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00949B7258DE58F00BB176D /* MeepAppTests.swift in Sources */,
+				B0A7EF30258F4B9400842D92 /* ResourcesUseCaseMock.swift in Sources */,
+				B0A7EF35258F4BE900842D92 /* MapNavigatorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +782,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B00949A5258DE58C00BB176D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B00949A6258DE58C00BB176D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B00949AA258DE58F00BB176D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,10 +911,12 @@
 		};
 		B00949C7258DE58F00BB176D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7CCFE39B454028E6CFACF1 /* Pods-MeepApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2MBR7B7K3;
 				INFOPLIST_FILE = MeepApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,10 +931,12 @@
 		};
 		B00949C8258DE58F00BB176D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2565783266EFAC6DF3DCFFA0 /* Pods-MeepApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2MBR7B7K3;
 				INFOPLIST_FILE = MeepApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +951,7 @@
 		};
 		B00949CA258DE58F00BB176D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13D19BA6549A2F032F7DD70 /* Pods-MeepAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +973,7 @@
 		};
 		B00949CB258DE58F00BB176D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9567DCF8EA1EEAC70F4A421C /* Pods-MeepAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +995,7 @@
 		};
 		B00949CD258DE58F00BB176D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FA92ED9AF921059DDFA7E6 /* Pods-MeepApp-MeepAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +1015,7 @@
 		};
 		B00949CE258DE58F00BB176D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BCD9A5AD18D4124F74F300 /* Pods-MeepApp-MeepAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

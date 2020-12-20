@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="uNB-wD-1nM">
+            <objects>
+                <viewController restorationIdentifier="MapViewController" storyboardIdentifier="MapViewController" id="Uom-Qa-dzy" customClass="MapViewController" customModule="MeepApp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IPk-K6-gDY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLo-hj-TWX" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qpY-1o-S04"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qpY-1o-S04" firstAttribute="bottom" secondItem="hLo-hj-TWX" secondAttribute="bottom" id="2rE-6S-ynS"/>
+                            <constraint firstItem="qpY-1o-S04" firstAttribute="trailing" secondItem="hLo-hj-TWX" secondAttribute="trailing" id="MT9-gX-RoN"/>
+                            <constraint firstItem="hLo-hj-TWX" firstAttribute="leading" secondItem="qpY-1o-S04" secondAttribute="leading" id="TQg-YG-VRJ"/>
+                            <constraint firstItem="qpY-1o-S04" firstAttribute="top" secondItem="hLo-hj-TWX" secondAttribute="top" id="bVj-N8-0nq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="hLo-hj-TWX" id="xof-8f-Qr0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5fC-xJ-2Gr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="298.55072463768118" y="133.92857142857142"/>
+        </scene>
+        <!--Resource Detail View Controller-->
+        <scene sceneID="wtb-lR-rOY">
+            <objects>
+                <viewController restorationIdentifier="ResourceDetailViewController" storyboardIdentifier="ResourceDetailViewController" id="wCk-rp-f9N" customClass="ResourceDetailViewController" customModule="MeepApp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v2m-P7-P2c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LBt-YA-bC3">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="600" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aq4-pg-8rz">
+                                        <rect key="frame" x="20" y="15" width="374" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aq4-pg-8rz" firstAttribute="leading" secondItem="LBt-YA-bC3" secondAttribute="leading" constant="20" id="De3-qA-rtL"/>
+                                    <constraint firstItem="aq4-pg-8rz" firstAttribute="top" secondItem="LBt-YA-bC3" secondAttribute="top" constant="15" id="cKT-Ns-rkh"/>
+                                    <constraint firstItem="aq4-pg-8rz" firstAttribute="trailing" secondItem="LBt-YA-bC3" secondAttribute="trailing" constant="20" id="gEX-Zr-UFL"/>
+                                    <constraint firstItem="aq4-pg-8rz" firstAttribute="centerX" secondItem="LBt-YA-bC3" secondAttribute="centerX" id="hHX-wk-yjj"/>
+                                    <constraint firstAttribute="bottom" secondItem="aq4-pg-8rz" secondAttribute="bottom" constant="40" id="thn-QM-7xd"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="gfp-Kz-dF4"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="80E-Y0-V7b"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="abn-lc-vsx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LBt-YA-bC3" firstAttribute="leading" secondItem="abn-lc-vsx" secondAttribute="leading" id="BqV-bi-AOJ"/>
+                            <constraint firstItem="abn-lc-vsx" firstAttribute="trailing" secondItem="LBt-YA-bC3" secondAttribute="trailing" id="Rhc-bw-faH"/>
+                            <constraint firstItem="LBt-YA-bC3" firstAttribute="top" secondItem="abn-lc-vsx" secondAttribute="top" id="ewc-Oq-b5U"/>
+                            <constraint firstItem="abn-lc-vsx" firstAttribute="bottom" secondItem="LBt-YA-bC3" secondAttribute="bottom" id="ymY-wu-MxW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="aq4-pg-8rz" id="Brc-Ru-EIh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aW3-bl-uVh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1032" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
